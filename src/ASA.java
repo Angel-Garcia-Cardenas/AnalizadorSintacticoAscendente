@@ -9,7 +9,7 @@ public class ASA implements Parser {
     private Token preanalisis;
     private final List<Token> tokens;
     private Stack<Integer> estados;
-    
+
     private static final Map<String, Integer> NO_TERMINALES_MAPA = new HashMap<>();
     private static final Map<String, Integer> SIMBOLOS_MAPA = new HashMap<>();
 
